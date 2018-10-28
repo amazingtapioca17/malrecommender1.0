@@ -3,7 +3,7 @@ import urllib.request
 import category as cat
 from collections import defaultdict
 from pathlib import Path
-path_str="C:\\Users\\Peter\\Desktop\\malprojectv2\\Json test"
+path_str="C:\\Users\\Peter\\Desktop\\malrecommender\\Json test"
 x = Path(path_str)
 mal_id_list=set()
 trait_dict=defaultdict(int)
